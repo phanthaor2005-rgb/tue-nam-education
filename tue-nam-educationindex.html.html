@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuệ Nam Education</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fdfdfd;
+        }
+        header {
+            background: linear-gradient(90deg, #0d47a1, #1976d2);
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 { margin: 0; }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        .hero {
+            background: linear-gradient(rgba(255,193,7,0.85), rgba(255,193,7,0.85));
+            padding: 100px 20px;
+            text-align: center;
+            color: #0d47a1;
+        }
+        .hero h2 { font-size: 40px; margin-bottom: 10px; }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #0d47a1;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+        .section {
+            padding: 60px 50px;
+            text-align: center;
+        }
+        .section h3 {
+            color: #0d47a1;
+            margin-bottom: 20px;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: #fff8e1;
+            padding: 25px;
+            border-radius: 15px;
+            width: 250px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .about {
+            background-color: #e3f2fd;
+        }
+        .contact {
+            background-color: #fff8e1;
+        }
+        footer {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tuệ Nam Education</h1>
+    <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#services">Dịch vụ</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Trung Tâm Dạy Học & Luyện Thi Đa Nền Tảng</h2>
+    <p>Offline – Online – Hybrid linh hoạt</p>
+    <a href="#contact" class="btn">Đăng ký ngay</a>
+</section>
+
+<section class="section" id="services">
+    <h3>Dịch vụ của chúng tôi</h3>
+    <div class="services">
+        <div class="card">
+            <img src="phonghoc.png" style="width:100%; height:180px; object-fit:cover; border-radius:10px; margin-bottom:15px;">
+            <h4>Cho thuê phòng học</h4>
+            <p>Phòng học hiện đại, đầy đủ máy chiếu, điều hòa.</p>
+        </div>
+        <div class="card">
+            <img src="giasu.png" style="width:100%; height:180px; object-fit:cover; border-radius:10px; margin-bottom:15px;">
+            <h4>Gia sư 1:1</h4>
+            <p>Kèm riêng theo năng lực từng học sinh.</p>
+        </div>
+        <div class="card">
+            <img src="tiện lợi.png" style="width:100%; height:180px; object-fit:cover; border-radius:10px; margin-bottom:15px;">
+            <h4>Online & Hybrid</h4>
+            <p>Linh hoạt thời gian, tiết kiệm chi phí.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section about" id="about">
+    <h3>Giới thiệu về chúng tôi</h3>
+    <p>Tuệ Nam Education được xây dựng từ trải nghiệm thực tế trong lĩnh vực giáo dục. 
+    Trung tâm hướng đến môi trường học tập linh hoạt, hiện đại và hiệu quả.</p>
+</section>
+
+<section class="section contact" id="contact">
+    <h3>Liên hệ đăng ký</h3>
+    <p>Hotline: 0123 456 789</p>
+    <p>Email: tuenameducation@gmail.com</p>
+    <input type="text" placeholder="Họ và tên"><br>
+    <input type="email" placeholder="Email"><br>
+    <textarea rows="4" placeholder="Nội dung"></textarea><br>
+    <a href="#" class="btn">Gửi thông tin</a>
+</section>
+
+<footer>
+    © 2026 Tuệ Nam Education | All Rights Reserved
+</footer>
+
+</body>
+</html>
